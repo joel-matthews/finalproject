@@ -1,0 +1,43 @@
+<!doctype html><!-- html5 doctype declaration-->
+<html class="no-js" lang=""> 
+    <!-- "no-js"class is provided in order to allow more easy and explicit adding of custom styles based on whether JavaScript is disabled (.no-js) or enabled (.js).-->
+    <!-- lang="" specifies language of the content by adding the lang attribute-->
+    <head> <!-- header-->
+        <meta charset="utf-8"><!-- charset should be declared within the first 512MB of the html code in order to prevent maliscious code and hijacking-->
+        <meta http-equiv="x-ua-compatible" content="ie=edge"><!-- ensure the latest rendering engine version of IE (Internet Exploder) is being used-->
+ 
+        <title>Html-5 boilerplate</title>
+	
+        <meta name="description" content=""><!-- provides a description of the content-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!-- sends a message to the browser to render as a mobile site -->
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css"><!-- enables browsers to render all elements more consistently and in line with modern standards. -->
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script><!--  Modernizr helps older browsers handle HTML5 elements -->
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]--><!-- checks the version of the browser and if outdated sends a message to the user to update the browser-->
+
+        <!-- Add your site or application content here -->
+        <p>Hello World!This is HTML5 Boilerplate.</p>
+	
+        <!-- Local Jquery is included in order to facilitate offline development -->
+        <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <!-- an optimized version of the Google Universal Analytics tracking code is included-->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
