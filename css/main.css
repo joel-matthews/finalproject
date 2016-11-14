@@ -107,14 +107,6 @@ ul {
 	 width: 960px;
 	 background-repeat: no-repeat;
 	 }
-#Paris {
-         clear: both;
-	 background-image: url("../img/ibiza.jpeg")
-	 height: 404px;
-	 background-size: cover;
-	 width: 960px;
-	 background-repeat: no-repeat;
-	 }
 #hawaii {
          clear: both;
 	 background-image: url("../img/ibiza.jpeg");
@@ -162,7 +154,7 @@ ul {
  				  float: left;
 				  width: 320px;
                          	 }
-#banner, #hawaii, #Paris, #brazil img {
+#banner, #Paris, #brazil img {
 	     width: 100%;
 	     }
 #footer {
