@@ -137,19 +137,19 @@ ul {
 	  padding: 0px;
 	  margin: 0px;
 	  color:white;
+	  padding:5px;
 	  }
 #feature {
 	   float:left;
 	   background-color:white;
 	   }
- #feature1, #feature2, #feature3 {
+#feature1, #feature2, #feature3 {
  				  float: left;
 				  width: 320px;
 				  background-color:white;
                          	 }
 #feature1, #feature2, #feature3 h2 {
-				     color:grey;
-				    
+				     color:grey;				    
 				   }
 #banner,img {
 	     width: 100%;
