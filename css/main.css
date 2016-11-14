@@ -136,20 +136,27 @@ ul {
 #logo h1 {
 	  padding: 0px;
 	  margin: 0px;
-	  color:black
+	  color:white;
 	  }
+#feature {
+	   float:left;
+	   background-color:white;
+	   }
  #feature1, #feature2, #feature3 {
  				  float: left;
 				  width: 320px;
-				  background-color:#FFF;
+				  background-color:grey;
                          	 }
 #banner,img {
 	     width: 100%;
 	     }
 #footer {
-	 background-color: #FFF;
+	 background-color: grey;
 	 clear: both;
 	 }
+#footer h4 {
+             color: white;
+		}
 
 
 
