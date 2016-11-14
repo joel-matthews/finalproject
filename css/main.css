@@ -96,9 +96,10 @@ ul {
       float:right;
     }
 #wrapper {
-	    width: 960px;
+	    width:960;
             margin-left: auto;
 	    margin-right: auto;
+	    background:#FFF;
 	    }
 #banner {
 	  clear: both;
@@ -125,6 +126,7 @@ ul {
 #menu a {
 	 color: black;
 	 float: right;
+	 padding:5px;
 	}
 #logo {
         background-color: white;
@@ -138,6 +140,7 @@ ul {
  #feature1, #feature2, #feature3 {
  				  float: left;
 				  width: 320px;
+				  background:#FFF;
                          	 }
 #banner,img {
 	     width: 100%;
