@@ -102,7 +102,7 @@ ul {
 	    }
 #banner {
 	  clear: both;
-	  background-image: url("../img/ibiza.jpg");
+	  background-image: url("../img/ibiza.jpeg");
 	  height: 404px;
 	  background-size: cover;
 	  width: 960px;
@@ -113,20 +113,21 @@ ul {
 	     padding: 0px;
 	     }
 #header {
-	 background-color:red;
+	 background-color:white;
 	 height: 70px;
 	 line-height: 70px;
 	 }
 #menu {
-         background-color:blue;
+         background-color:white;
 	 width: 593px;
-	 float: right;
+	 float: left;
 	 }
 #menu a {
-	 color: white;
+	 color: black;
+	 float: right;
 	}
 #logo {
-        background-color: green;
+        background-color: white;
 	width: 367px;
 	float: left;
 	}
@@ -142,7 +143,7 @@ ul {
 	     width: 100%;
 	     }
 #footer {
-	 background-color: orange;
+	 background-color: white;
 	 clear: both;
 	 }
 
