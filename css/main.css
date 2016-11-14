@@ -93,37 +93,13 @@ li {
 ul {
       margin: 0px;
       padding: 0px;
+      float:right;
     }
 #wrapper {
 	    width: 960px;
             margin-left: auto;
 	    margin-right: auto;
 	    }
-#banner {
-	 clear: both;
-	 background-image: url("../img/ibiza.jpeg");
-	 height: 404px;
-	 background-size: cover;
-	 width: 960px;
-	 background-repeat: no-repeat;
-	 }
-#hawaii {
-         clear: both;
-	 background-image: url("../img/ibiza.jpeg");
-	 height: 404px;
-	 background-size: cover;
-	 width: 960px;
-	 background-repeat: no-repeat;
-	 }
-#brazil {
-         clear: both;
-	 background-image: url("../img/ibiza.jpeg");
-	 height: 404px;
-	 background-size: cover;
-	 width: 960px;
-	 background-repeat: no-repeat;
-	 }
-
 #banner, #Paris, #hawaii, #brazil h1 {
  	     margin: 0px;
 	     padding: 0px;
@@ -154,7 +130,7 @@ ul {
  				  float: left;
 				  width: 320px;
                          	 }
-#banner, #Paris, #brazil img {
+#banner,img {
 	     width: 100%;
 	     }
 #footer {
