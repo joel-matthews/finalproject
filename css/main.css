@@ -133,6 +133,8 @@ ul {
         background-color: grey;
 	width: 367px;
 	float: left;
+	height: 30px;
+	line-height: 30px;
 	}
 #logo h2 {
 	  padding: 20px;
