@@ -160,6 +160,24 @@ ul {
 #feature3 h2 {
 		color:black;
 		}
+
+#feature1 a {
+                color:white;
+		}
+
+#feature2 a {
+                color:white;
+		}
+
+#feature3 a {
+                color:white;
+		}
+
+#logo a {
+            color:black;
+	   }
+
+
 #banner,img {
 	     width: 100%;
 	     }
