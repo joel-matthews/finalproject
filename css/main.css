@@ -151,9 +151,15 @@ ul {
 				  width: 320px;
 				  background-color:#F0F0F0;
                          	 }
-#feature1, #feature2, #feature3 h2 {
-				     color:black;				    
-				   }
+#feature1 h2 {
+	        color:black;				    
+	        }
+#feature2 h2 {
+		color:black;
+		}
+#feature3 h2 {
+		color:black;
+		}
 #banner,img {
 	     width: 100%;
 	     }
