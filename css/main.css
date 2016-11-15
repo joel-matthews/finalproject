@@ -104,16 +104,16 @@ ul {
 	    }
 #banner {
 	  clear: both;
-	  background-image: url("../img/ibiza.jpeg");
+	  background-image: url("../img/ibiza.jpg");
 	  height: 430px;
 	  background-size: cover;
 	  width: 960px;
 	  background-repeat: no-repeat;
 	    }
-#banner, #Paris, #hawaii, #brazil h1 {
- 	     margin: 0px;
-	     padding: 0px;
-	     }
+#banner h1 {
+ 	    	 margin: 0px;
+	   	 padding: 0px;
+	    	 }
 #header {
 	 background-color:grey;
 	 height: 40px;
