@@ -144,12 +144,12 @@ ul {
 	  }
 #feature {
 	   float:left;
-	   background-color:#FFFF00;
+	   background-color:#F0F0F0;
 	   }
 #feature1, #feature2, #feature3 {
  				  float: left;
 				  width: 320px;
-				  background-color:#FFFF00;
+				  background-color:#F0F0F0;
                          	 }
 #feature1, #feature2, #feature3 h2 {
 				     color:black;				    
