@@ -117,12 +117,13 @@ ul {
 #header {
 	 background-color:grey;
 	 height: 40px;
-	 line-height: 40px;
+	 line-height: 0px;
 	 }
 #menu {
          background-color:grey;
 	 width: 593px;
 	 float: left;
+	 line-height:30px;
 	 }
 #menu a {
 	 color: white;
@@ -133,7 +134,7 @@ ul {
         background-color: grey;
 	width: 367px;
 	float: left;
-	height: 40px;
+	height: 30px;
 	}
 #logo h2 {
 	  padding: 20px;
@@ -143,15 +144,15 @@ ul {
 	  }
 #feature {
 	   float:left;
-	   background-color:white;
+	   background-color:#FFFF00;
 	   }
 #feature1, #feature2, #feature3 {
  				  float: left;
 				  width: 320px;
-				  background-color:white;
+				  background-color:#FFFF00;
                          	 }
 #feature1, #feature2, #feature3 h2 {
-				     color:grey;				    
+				     color:black;				    
 				   }
 #banner,img {
 	     width: 100%;
