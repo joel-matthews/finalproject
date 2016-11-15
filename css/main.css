@@ -105,7 +105,7 @@ ul {
 #banner {
 	  clear: both;
 	  background-image: url("../img/ibiza.jpeg");
-	  height: 404px;
+	  height: 430px;
 	  background-size: cover;
 	  width: 960px;
 	  background-repeat: no-repeat;
@@ -116,8 +116,8 @@ ul {
 	     }
 #header {
 	 background-color:grey;
-	 height: 50px;
-	 line-height: 70px;
+	 height: 30px;
+	 line-height: 30px;
 	 }
 #menu {
          background-color:grey;
@@ -135,10 +135,10 @@ ul {
 	float: left;
 	}
 #logo h2 {
-	  padding: 0px;
+	  padding: 20px;
 	  margin: 0px;
 	  color:white;
-	  padding:5px;
+	  
 	  }
 #feature {
 	   float:left;
