@@ -145,6 +145,7 @@ ul {
 #feature {
 	   float:left;
 	   background-color:#F0F0F0;
+	   width: 960px;
 	   }
 #feature1, #feature2, #feature3 {
  				  float: left;
