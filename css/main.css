@@ -127,22 +127,6 @@ ul {
 		 text-align
 	    	 }
 
-#inquiry{
-	clear: both;
-	background-color:grey;
-
-	height: 466px;
-	line-height: 466px;
-	padding-left: 31px;
-	padding-right: 31px;
-	background-position-x: 115px;
-
-}
-#inquiry h3{ 
-	color: white;
-
-}
-
 #header {
 	background-color: #D7B8AA;
        	height: 86px;
@@ -179,14 +163,34 @@ ul {
 	height: 86px;
 	width: 86px;
 }
-
+#inquiry{
+	height: 466px;
+	padding-left: 50px;
+}
 #inquiry1, #inquiry2{
 			float: left;
 			text-align:center;
-			width: 480px;
+			width: 450px;
 			height: 400px;
 			margin-top: 10px;
 }
+
+#inquiry2{
+			background-image: url('../img/secondpagelogo.png');			
+                        float: left;
+		        text-align:center;										     width: 450px;
+			height: 400px;
+			margin-top: 10px;
+															}
+
+#inquiry1 h3{ 
+		color:white;
+}
+
+#inquiry2 h3{ 
+		color: white;
+
+	}
 #feature {
 	   height: 100px;
 	    }
