@@ -128,7 +128,7 @@ ul {
 	    	 }
 
 #header {
-	background-color: #D7B8AA;
+	background-color: #172026;
        	height: 86px;
 	 line-height: 86px;
 	 }
@@ -196,6 +196,7 @@ ul {
 	}
 #feature {
 	   height: 100px;
+	   background-color: #172026;
 	    }
 #feature1, #feature2, #feature3 {
  				  float: left;
@@ -234,7 +235,7 @@ ul {
 		}
 
 #footer {
-	 background-color: #F3F0F1;
+	 background-color: #172026;
 	 height: 41px;
 	 }
 #footer h4 {
