@@ -112,7 +112,8 @@ ul {
 	    }
 
 #banner {
-	  clear: both;
+	 color: white;
+	 clear: both;
 	  background-color: grey;
 
 	  background-image: url('../img/Consulting.jpg');
