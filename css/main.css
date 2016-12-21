@@ -87,106 +87,151 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{ 
+
+	background-color: #FFF;
+	color: #777;
+	margin: 8px;
+	font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+}
+
 li {
      display:inline;
    }
+   
 ul {
       margin: 0px;
       padding: 0px;
-      float:right;
     }
 #wrapper {
 	    width:960px;
             margin-left: auto;
 	    margin-right: auto;
-	    background-color:white;
-	    box-shadow: 5px 5px 5px #888888;
+	    height: 593px;
 	    }
+
 #banner {
 	  clear: both;
-	  background-image: url("../img/ibiza.jpg");
-	  height: 430px;
-	  background-size: cover;
-	  width: 960px;
-	  background-repeat: no-repeat;
+	  background-color: grey;
+
+	  background-image: url('../img/Consulting.jpg');
+	  height: 366px;
+	  line-height: 366px;
+	  padding-left: 31px;
+	  padding-right: 31px;
+	  background-position-x: 115px;
 	    }
 #banner h1 {
  	    	 margin: 0px;
-	   	 padding: 0px;
+		 text-align
 	    	 }
+
+#inquiry{
+	clear: both;
+	background-color:grey;
+
+	height: 466px;
+	line-height: 466px;
+	padding-left: 31px;
+	padding-right: 31px;
+	background-position-x: 115px;
+
+}
+#inquiry h3{ 
+	color: white;
+
+}
+
 #header {
-	 background-color:grey;
-	 height: 40px;
-	 line-height: 0px;
+	background-color: #D7B8AA;
+       	height: 86px;
+	 line-height: 86px;
 	 }
 #menu {
-         background-color:grey;
-	 width: 593px;
+  
+	 width: 562px;
 	 float: left;
-	 line-height:30px;
+	 text-align: right;
+	 padding-right: 31px;
 	 }
 #menu a {
-	 color: white;
-	 float: right;
+	 color: black;
 	 padding:5px;
+	 text-decoration:none;
+
 	}
+#menu a:hover{
+	color: #FFF;
+}
 #logo {
-        background-color: grey;
 	width: 367px;
 	float: left;
-	height: 30px;
+	height: 86px;
 	}
-#logo h2 {
-	  padding: 20px;
-	  margin: 0px;
-	  color:white;
-	  
-	  }
+#img {
+	width: 86px;
+	height: 86px;
+	background : url('../img/__') no-repeat center;
+}
+
+#img a {
+	height: 86px;
+	width: 86px;
+}
+
+#inquiry1, #inquiry2{
+			float: left;
+			text-align:center;
+			width: 480px;
+			height: 400px;
+			margin-top: 10px;
+}
 #feature {
-	   float:left;
-	   background-color:#F0F0F0;
-	   width: 960px;
+	   height: 100px;
 	    }
 #feature1, #feature2, #feature3 {
  				  float: left;
+				  text-align: center;
 				  width: 320px;
-				  background-color:#F0F0F0;
+				  height: 90px;
+				  margin-top: 10px;
                          	 }
 #feature1 h2 {
-	        color:black;				    
+	        color:white;				    
+
 	        }
+#feature1 h2:hover{
+        color: #02B8DD;
+	}
+
 #feature2 h2 {
-		color:black;
+		color:white;
 		}
 #feature3 h2 {
-		color:black;
+		color:white;
 		}
 
 #feature1 a {
-                color:black;
+                color:white;
+		text-decoration: none;
 		}
 
 #feature2 a {
-                color:black;
+                color:white;
 		}
 
 #feature3 a {
-                color:black;
+                color:white;
+		text-decoration: none;
 		}
 
-#logo a {
-            color:white;
-	   }
-
-
-#banner,img {
-	     width: 100%;
-	     }
 #footer {
-	 background-color: grey;
-	 clear: both;
+	 background-color: #F3F0F1;
+	 height: 41px;
 	 }
 #footer h4 {
+	     margin: 0px;
              color: white;
 		}
 
