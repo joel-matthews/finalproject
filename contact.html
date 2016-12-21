@@ -6,17 +6,19 @@
         <meta charset="utf-8"><!-- charset should be declared within the first 512MB of the html code in order to prevent maliscious code and hijacking-->
         <meta http-equiv="x-ua-compatible" content="ie=edge"><!-- ensure the latest rendering engine version of IE (Internet Exploder) is being used-->
  
-        <title>Travel Agency</title>
+        <title>IntelliSolutions</title>
 	
         <meta name="description" content=""><!-- provides a description of the content-->
         <meta name="viewport" content="width=device-width, initial-scale=1"><!-- sends a message to the browser to render as a mobile site -->
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/img/travel-smart-logo.png">
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css"><!-- enables browsers to render all elements more consistently and in line with modern standards. -->
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script><!--  Modernizr helps older browsers handle HTML5 elements -->
+
+       <script src="js/vendor/modernizr-2.8.3.min.js"></script><!--  Modernizr helps older browsers handle HTML5 elements -->
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -25,39 +27,39 @@
 
         <!-- Add your site or application content here -->
         <div id="wrapper">
-	 <div id ="header">
-	  <div id="logo">
-	   <h1> </h1>
-	  </div>
-	  <div id="menu">
-	   <ul>
-	    <li>
-	     <a href="index.html">Home</a>
-	    </li>
-	    <li>
-	     <a href="about.html">About</a>
-	    </li>
-	    <li>
-	     <a href="contact.html">Packages</a>
-            </li>
-           </ul> 
-          </div>
-	 </div> 
-	 <div id="banner">
-	  <h1>You can write here</h1>
-	 </div>
-	 <div id="feature">
-	  <div id="feature1">
-	   <h2>Feature 1</h2>
-	  </div>
-          <div id="feature2">
-	   <h2>Feature 2</h2>
-          </div>
-	  <div id="feature3">
-	   <h2>Feature 3</h2>
+	    <div id ="header">
+       		 <div id="logo">
+		 	<div id="img">
+				<a href="#"></a>
+			</div>	
+		</div>
+		<div id="menu">
+	     	<ul> 
+
+	        	<li> <a href="index.html">Home</a> </li>
+	        	<li> <a href="services.html">Services</a> </li>
+			<li> <a href="index.html">Contact</a> </li>
+            	 </ul> 
+        	</div>
+	    </div> 
+	 <div id="inquiry">
+	  <div id="inquiry1">
+	  	<form action="action_page.php">
+		 First name:<br>
+		 <input type="text" name="firstname" value="">
+		 <br>
+		 Last name:<br>
+		 <input type="text" name="lastname" value="">
+		 <br><br>
+		 <input type="submit" value="Submit>
+		</form>
+
+		<p> If you click the "Submit" button, the form-data will be sent to the
+		IntelliSolutions.</p>
+
 	  </div>
          </div>
-	 <div id="footer">Footer</div>
+	 <div id="footer"><h4>2016 IntelliSolutions Inc.</h4></div>
 	</div>
 	
         <!-- Local Jquery is included in order to facilitate offline development -->
