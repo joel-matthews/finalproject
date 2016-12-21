@@ -167,7 +167,7 @@ ul {
 	height: 466px;
 	padding-left: 50px;
 }
-#inquiry1, #inquiry2{
+#inquiry{
 			float: left;
 			text-align:center;
 			width: 450px;
@@ -178,7 +178,8 @@ ul {
 #inquiry2{
 			background-image: url('../img/secondpagelogo.png');			
                         float: left;
-		        text-align:center;										     width: 450px;
+		        text-align:center;
+			width: 450px;
 			height: 400px;
 			margin-top: 10px;
 															}
