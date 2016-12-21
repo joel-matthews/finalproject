@@ -165,10 +165,15 @@ ul {
 	width: 86px;
 }
 #contact{
-	width: 500px;
 	height: 466px;
-	padding-left:230px;
+	padding-left: 230px;
+}
+
+#contact1{
+	float:left;
 	text-align:center;
+	width:500px;
+	margin-top: 10px;
 }
 #inquiry{
 	height: 466px;
